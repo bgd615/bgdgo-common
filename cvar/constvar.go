@@ -52,7 +52,17 @@ const (
 	ENV_VAR_FORMAT_HOUR_1H = "HH_1h"
 	ENV_VAR_FORMAT_DATE_2D = "yyyymmdd_2d"
 	ENV_VAR_FORMAT_HOUR_2H = "HH_2h"
-
+	//上批量fid
+	ENV_VAR_FORMAT_CTX_CAL_PID = "ctx_cal_pid"
+	//本批量fid
+	ENV_VAR_FORMAT_CTX_CAL_FID = "ctx_cal_fid"
+	//任务运行ID
+	ENV_VAR_FORMAT_CTX_CAL_RID = "ctx_cal_rid"
+	//触发任务id
+	ENV_VAR_FORMAT_CTX_CAL_SID = "ctx_cal_sid"
+	ENV_VAR_FORMAT_CTX_CAL_SYS = "ctx_cal_sys"
+	ENV_VAR_FORMAT_CTX_CAL_JOB = "ctx_cal_job"
+	ENV_VAR_FORMAT_CTX_CAL_CTX = "ctx_cal_ctx"
 	//
 	VAR_ALERT_MSG_RID           = "VAR_ALERT_MSG_RID"
 	VAR_ALERT_MSG_FID           = "VAR_ALERT_MSG_FID"
@@ -65,4 +75,6 @@ const (
 	VAR_ALERT_MSG_WORKER_SERVER = "VAR_ALERT_MSG_WORKER_SERVER"
 	VAR_ALERT_MSG_WORKER_IP     = "VAR_ALERT_MSG_WORKER_IP"
 	VAR_ALERT_MSG_WORKER_PORT   = "VAR_ALERT_MSG_WORKER_PORT"
+	//
+	VAR_FLOW_NO_PID = "f20231212235959xxxxx"
 )

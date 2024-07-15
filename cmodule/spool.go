@@ -7,6 +7,8 @@ import (
 type TopicsJobSpool struct {
 	Rid               string        `json:"rid"`
 	Fid               string        `json:"fid"`
+	Pid               string        `json:"pid"`
+	Sid               string        `json:"sid"`
 	Sys               string        `json:"sys"`
 	Job               string        `json:"job"`
 	Ctx               string        `json:"ctx"`
@@ -60,4 +62,5 @@ type TopicsJobSpool struct {
 	Enable            string        `json:"enable"`
 	WorkerReturnCode  string        `json:"worker_return_code"`
 	WorkerReturnTxt   string        `json:"worker_return_txt"`
+	QueueRetryCount   string        `json:"queue_retry_count"`
 }
